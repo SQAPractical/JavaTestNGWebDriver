@@ -23,7 +23,7 @@ public class GoogleSearchTest extends BaseTest {
         resultPage.printOutAmountOfResult();
 
         String actualPageTitle = resultPage.getPageTitle();
-        String expectedPageTitle = "qwery";
+        String expectedPageTitle = "query - Google Search";
 
         Assert.assertEquals(actualPageTitle, expectedPageTitle);
     }
